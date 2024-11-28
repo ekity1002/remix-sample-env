@@ -19,6 +19,9 @@ module.exports = {
     commonjs: true,
     es6: true,
   },
+  rules: {
+    "no-console": "warn",
+  },
   ignorePatterns: ["!**/.server", "!**/.client"],
 
   // Base config
